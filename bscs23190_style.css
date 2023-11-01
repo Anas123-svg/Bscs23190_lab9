@@ -1,0 +1,384 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the navbar */
+.navbar {
+    background-color: transparent; /* Background color for the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 20px;
+    color: #fff; /* Text color for links */
+}
+
+/* Style for the navigation list */
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+/* Style for individual navigation items */
+.nav-item {
+    margin-right: 20px; /* Spacing between each item */
+}
+
+/* Style for links within the navigation items */
+.nav-item a {
+    text-decoration: none;
+    color: #fff; /* Link color */
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Change link color on hover */
+.nav-item a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+/* Add styling for the "About Us" section */
+
+/* Section 2: Check Our Products */
+
+
+/* Section 3: Footer */
+.footer {
+    background-color: #333; /* Background color for the footer section */
+    color: #fff; /* Text color in the footer */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer h2 {
+    font-size: 24px; /* Heading font size */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.footer p {
+    font-size: 16px; /* Paragraph font size */
+}
+
+/* Style links in the footer */
+.footer a {
+    color: #fff; /* Link color in the footer */
+    text-decoration: none;
+}
+
+/* Change link color on hover in the footer */
+.footer a:hover {
+    text-decoration: underline;
+}
+/* Product section styling */
+.product {
+    padding: 20px 0;
+    background-color: #f7f7f7; /* Background color for the product section */
+}
+
+/* Product box styling */
+.product-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff; /* Background color for the product box */
+}
+
+/* Product image styling */
+.product-box img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* Product info styling */
+.product-info {
+    flex: 1;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product-info ul li {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Button styling */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-text {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.about-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#hero-section {
+    text-align: center;
+    background-image: url('bscs23190_src/bscs23190_llk.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 93vh;
+    color: #fff;
+    position: relative;
+}
+
+#hero-section::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px; /* Adjust the height of the zigzag line */
+    background: linear-gradient(135deg, transparent 45%, #000 45%, #000 55%, transparent 55%); /* Adjust the color and size as needed */
+}
+
+#hero-content {
+    text-align: center;
+    padding: 300px 0;
+}
+
+#hero-content h1 {
+    font-size: 2.5em;
+    margin: 100;
+}
+
+#hero-content p {
+    margin: 10%;
+    font-size: 1.2em;
+}
+
+
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-section {
+    background-color: #fffbfb;
+    color: #a97c20fd;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    margin: 60px;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #000000fd;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.product img {
+    width: 200%;
+    height: 250%;
+    background-color: #ffffff;
+    object-fit: cover;
+}
+
+.product-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    text-align: center;
+}
+
+.product:hover .product-text {
+    opacity: 1;
+    background-color: transparent; /* Add a semi-transparent background */
+    color: #ffffff; /* Text color on hover */
+}
+
+.product-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #a97c20fd; /* White background color for the button */
+    color: #030303; /* Text color for the button */
+    text-decoration: none;
+    align-self: center;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.product-button:hover {
+    background-color: #e0e0e0; /* Change button background color on hover */
+    color: #000000; /* Change text color on hover */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.about-section {
+    background-color: #f6f6f6;
+    color: #000;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-image {
+    flex: 1;
+    padding: 70px;
+    max-width: 500px;
+    height: 500px;
+}
+
+.about-image img {
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-text {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Reset default margin and padding */
+
+
+/* Reset default margin and padding */
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the contact box */
+.contact-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-box ul li {
+    margin-bottom: 10px;
+}
+
+/* Style for social media icons */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* You can style the social media icons as needed */
+.social-media img {
+    width: 50px;
+    height: 50px;
+}
